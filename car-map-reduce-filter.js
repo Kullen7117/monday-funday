@@ -15,10 +15,12 @@ let cars = [ {
 ] 
 
 
-let newCars = cars.filter( (car) = {
-     return car.year = 2019 } )
-    
+let newCars = cars.filter( (car) => {
+     return cars.year = 2019 } )
+let displayData = cars.map( (car) => { 
+    let result = car
+    result.display = car.year + ' ' + car.make + ' ' + car.model
+    return result
+} )
+ console.log(displayData)
 
-
-
- console.log(newCars)
