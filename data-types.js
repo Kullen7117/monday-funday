@@ -19,9 +19,9 @@ let obj = {}
 let me = {
         name: 'Kullen'
         age: 22
-}
-    console.log(me)
 
+    console.log(me)
+}
 
 
 
