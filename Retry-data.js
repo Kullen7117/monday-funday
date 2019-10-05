@@ -4,5 +4,4 @@ let me = {
     age: 22
     birthday: '07-20-1997'
 }
-    console.log(me)
     
